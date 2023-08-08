@@ -45,7 +45,9 @@ The write pointer is a dual n-bit Gray code counter. The n-bit pointer ( wptr ) 
 through the sync_w2r module. The (n-1)-bit pointer ( waddr ) is used to address the FIFO buffer.
 
 
-
+## tb.v
+This was the testbench used for verifying the functionality, of the FIFO of depth 64 and word size of one byte. The clock domains chosen are 50 MHz and 80 MHz
+and burst length of 156 bytes.
 
 
 
