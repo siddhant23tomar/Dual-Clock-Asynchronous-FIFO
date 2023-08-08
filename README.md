@@ -49,5 +49,6 @@ through the sync_w2r module. The (n-1)-bit pointer ( waddr ) is used to address 
 This was the testbench used for verifying the functionality, of the FIFO of depth 64 and word size of one byte. The clock domains chosen are 50 MHz and 80 MHz
 and burst length of 156 bytes.
 
+## Simulation results
 
 
