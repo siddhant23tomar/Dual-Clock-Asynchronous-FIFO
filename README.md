@@ -51,4 +51,9 @@ and burst length of 156 bytes.
 
 ## Simulation results
 
+### read empty flag
+![alt text](https://github.com/siddhant23tomar/Dual-Clock-Asynchronous-FIFO/blob/main/REMPTY.png?raw=true)
 
+### write full flag
+
+![alt text](https://github.com/siddhant23tomar/Dual-Clock-Asynchronous-FIFO/blob/main/WFULL.png?raw=true)
