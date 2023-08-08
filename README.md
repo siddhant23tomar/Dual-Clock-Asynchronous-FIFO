@@ -11,3 +11,7 @@ The top-level FIFO module is a parameterized FIFO design with all sub-blocks ins
 practice of doing named port connections. The top-level module instantiations have the same name as the module name. 
 This is done to facilitate debugging since referencing module names in a hierarchical path will be straightforward 
 if the instance names match the module names.
+## fifomem.v 
+
+The FIFO memory buffer is typically an instantiated ASIC or FPGA dual-port, synchronous memory device. The
+memory buffer could also be synthesized to ASIC or FPGA registers using the RTL code in this module.
