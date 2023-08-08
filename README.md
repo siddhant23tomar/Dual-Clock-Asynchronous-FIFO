@@ -22,7 +22,7 @@ if the instance names match the module names.
 The FIFO memory buffer is typically an instantiated ASIC or FPGA dual-port, synchronous memory device. The
 memory buffer could also be synthesized to ASIC or FPGA registers using the RTL code in this module.
 
-## sync_r2w.v
+### sync_r2w.v
 
 This is a simple synchronizer module, used to pass an n-bit pointer from the read clock domain to the write clock
 domain, through a pair of registers that are clocked by the FIFO write clock.
