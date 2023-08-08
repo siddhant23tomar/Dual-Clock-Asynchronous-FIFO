@@ -29,5 +29,20 @@ domain, through a pair of registers that are clocked by the FIFO write clock.
 This is a simple synchronizer module, used to pass an n-bit pointer from the write clock domain to the read clock
 domain, through a pair of registers that are clocked by the FIFO read clock.
 
+## rptr_empty.v
+
+This module encloses all of the FIFO logic that is generated within the read clock domain (except synchronizers).
+The read pointer is a dual n-bit Gray code counter. The n-bit pointer ( rptr ) is passed to the write clock domain
+through the sync_r2w module. The (n-1)-bit pointer ( raddr ) is used to address the FIFO buffer.
+
+## wptr_empty.v
+
+This module encloses all of the FIFO logic that is generated within the write clock domain (except synchronizers).
+The write pointer is a dual n-bit Gray code counter. The n-bit pointer ( wptr ) is passed to the read clock domain
+through the sync_w2r module. The (n-1)-bit pointer ( waddr ) is used to address the FIFO buffer.
+
+
+
+
 
 
