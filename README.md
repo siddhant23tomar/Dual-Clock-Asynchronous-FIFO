@@ -23,3 +23,11 @@ memory buffer could also be synthesized to ASIC or FPGA registers using the RTL 
 
 This is a simple synchronizer module, used to pass an n-bit pointer from the read clock domain to the write clock
 domain, through a pair of registers that are clocked by the FIFO write clock.
+
+## sync_w2r.v
+
+This is a simple synchronizer module, used to pass an n-bit pointer from the write clock domain to the read clock
+domain, through a pair of registers that are clocked by the FIFO read clock.
+
+
+
