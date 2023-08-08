@@ -1,6 +1,7 @@
 # Dual-Clock-Asynchronous-FIFO
 Verilog Code of the FIFO based on the work of Clifford Cummings and its simulation specification.
-CITATION:Clifford E. Cummings and Peter Alfke, “Simulation and Synthesis Techniques for Asynchronous FIFO Design with
+## CITATION:
+Clifford E. Cummings and Peter Alfke, “Simulation and Synthesis Techniques for Asynchronous FIFO Design with
 Asynchronous Pointer Comparisons,” SNUG 2002 (Synopsys Users Group Conference, San Jose, CA, 2002) User Papers,
 March 2002, Section TB2, 3rd paper. Also available at www.sunburst-design.com/papers
 #  FIFO TOP LEVEL 
